@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+import { useState, useEffect } from 'react';
 import { Section } from './ui/Section';
 import { ExternalLink, Quote, ChevronLeft, ChevronRight, Star } from 'lucide-react';
 

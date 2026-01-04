@@ -1,4 +1,3 @@
-import React from 'react';
 import { Section } from './ui/Section';
 import { Smartphone, MousePointerClick, Zap, Search } from 'lucide-react';
 

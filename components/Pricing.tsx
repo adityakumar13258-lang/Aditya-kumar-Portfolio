@@ -1,4 +1,3 @@
-import React from 'react';
 import { Section } from './ui/Section';
 import { Check, ArrowUpRight, MessageCircle, Calendar, Sparkles, ExternalLink } from 'lucide-react';
 import { Button } from './ui/Button';

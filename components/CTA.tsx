@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import { useState } from 'react';
 import { Section } from './ui/Section';
 import { Clock, Video, Globe, ChevronLeft, ChevronRight, Calendar as CalendarIcon, ArrowLeft, CheckCircle2 } from 'lucide-react';
 import { Button } from './ui/Button';
@@ -14,7 +14,7 @@ const BookingWidget = () => {
   const [step, setStep] = useState<'date' | 'form' | 'success'>('date');
   const [selectedDate, setSelectedDate] = useState<number | null>(null);
   const [selectedTime, setSelectedTime] = useState<string | null>(null);
-  const [currentMonth, setCurrentMonth] = useState(new Date());
+  const [currentMonth] = useState(new Date());
   const [isSubmitting, setIsSubmitting] = useState(false);
 
   // Form State

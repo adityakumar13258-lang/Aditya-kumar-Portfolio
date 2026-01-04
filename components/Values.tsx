@@ -1,4 +1,3 @@
-import React from 'react';
 import { Section } from './ui/Section';
 import { TrendingUp, Asterisk, Clock, RefreshCw, Smartphone, PartyPopper } from 'lucide-react';
 

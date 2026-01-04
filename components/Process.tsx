@@ -1,6 +1,5 @@
-import React from 'react';
 import { Section } from './ui/Section';
-import { UserCheck, Send, ArrowRight, CheckCircle, Smartphone, PenTool, Layout, Code } from 'lucide-react';
+import { UserCheck, Send, ArrowRight, CheckCircle } from 'lucide-react';
 
 const steps = [
   {

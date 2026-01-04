@@ -1,4 +1,3 @@
-import React from 'react';
 import Hero from './components/Hero';
 import Philosophy from './components/Philosophy';
 import Values from './components/Values';

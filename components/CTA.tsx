@@ -62,7 +62,10 @@ const BookingWidget = () => {
     };
 
     try {
-      const response = await fetch("https://formspree.io/f/xlgrvdln", {
+      // Use Environment Variable or fallback to default
+      const endpoint = (import.meta as any).env.VITE_FORMSPREE_ENDPOINT || "https://formspree.io/f/xlgrvdln";
+      
+      const response = await fetch(endpoint, {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
